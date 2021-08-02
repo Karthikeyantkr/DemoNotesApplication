@@ -79,6 +79,9 @@ curl --location --request PUT 'http://localhost:8080/api/notes/bulk' \
 Delete a note by id:
 curl --location --request DELETE 'http://localhost:8080/api/notes/1'
 
+Delete note by ids:
+curl --location --request DELETE 'http://localhost:8080/api/notes/1,2,3'
+
 Delete a note by entity:
 curl --location --request DELETE 'http://localhost:8080/api/notes' \
 --header 'Content-Type: application/json' \
